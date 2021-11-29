@@ -8,10 +8,15 @@ public class Main {
         byte s = 1;
         short m = 170;
         int e = 50000;
-        long v = 10000000000000l;
+        long v = 10000000000000L;
         float p = 1.5f;
         double j = 2.0000004;
+        System.out.println(s);
+        System.out.println(m);
+        System.out.println(e);
+        System.out.println(v);
         System.out.println(p);
+        System.out.println(j);
 
         //2
         float boxerOne = 78.2f;
@@ -43,10 +48,10 @@ public class Main {
 
         //4
         byte u = 7;
-        int grammInKg = 1000;
+        int gramInKg = 1000;
         int q = 250;
         int r = 500;
-        int n = u * grammInKg;
+        int n = u * gramInKg;
         int howQ = n / q;
         System.out.println("Если боец будет худеть на 250г в день, то он похудеей за " + howQ + " дней");
         int howR = n / r;
